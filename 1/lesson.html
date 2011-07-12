@@ -23,13 +23,17 @@
         <a href="http://www.panic.com/coda/">Coda</a> are both good options)
       </li>
       <li>
-        Your preferred Browser
+        Your preferred Browser, we recommend Safari, Firefox and Google Chrome
+      </li>
+      <li>
+        A Textbook to take notes and make little sketches of what you want to implement.
       </li>
     </ul>
     
-    <p>Later on, we will learn about other tools, 
-      like <a href="tidy.sourceforge.net/">tidy</a>, 
-      the <a href="http://validator.w3.org/">W3C Validator</a> 
+    <img src="./coda.png" alt="Coda, editing this document."/>
+    
+    <p>Later on, we will learn about other tools 
+      like the <a href="http://validator.w3.org/">W3C Validator</a> 
       and your preferred browsers developer support,
       so go ahead and have a look at them if you are interested.
     </p>
@@ -38,7 +42,9 @@
     
     <dl>
       <dt>Source</dt>
-      <dd>The HTML document as displayed in your editor.</dd>
+      <dd>The HTML document as displayed in your text editor.</dd>
+      <dt>Page</dt>
+      <dd>The page displayed in the browser.</dd>
     </dl>
     
     <h2>Exercise 1.1: Reading HTML</h2>
@@ -47,14 +53,14 @@
       Have a look at this document itself, both in a browser and a text editor.
       Try to find out how each of the parts of the html documents gets displayed.
       Try to figure out their meaning.<br/>
-      <strong>Bonus</strong>: Try to classify the elements in behavioural groups.
+      <strong>Bonus</strong>: Try to classify the elements in groups.
     </p>
     
     <p>
       Turn all this into a small table<a href="#footnote-1">[1]</a>:
     </p>
     
-    <table summary="Elements and their behaviour" border="0" cellspacing="5" cellpadding="5">
+    <table>
       <tr>
         <th>Element</th>
         <th>Description</th>
@@ -62,7 +68,7 @@
       </tr>
       <tr>
         <td>&lt;meta&gt;</td>
-        <td>The meta tag allows you to describe meta information of the document</td>
+        <td>The meta tag allows you to describe meta information of the document.</td>
         <td>only in head, not displayed</td>
       </tr>
     </table>
@@ -71,7 +77,31 @@
       
     <ol>
       <li>How do line breaks in the source display in the browser?</li>
+      <li>Try to find relationships between the tag names and their display properties.</li>
+      <li>Most tag names are abbreviations. What is their meaning?</li>
+      <li>What does the DOCTYPE statement mean and why is it important?</li>
     </ol>
+    
+    <h2>Exercise 1.2: Create a <a href="http://en.wikipedia.org/wiki/Boilerplate_(text)#Boilerplate_code">Boilerplate</a></h2>
+    
+    <p>
+      Create a small page that that serves as a starting point for the following exercises. Put
+      it in a project folder and name it <span class="filename">boilerplate.html</span>. We will evolve this
+      boilerplate with new stuff. Feel free to personalize it, as long as it doesn't keep you from getting started
+      immediately.
+    </p>
+    
+    <p>For now, your Boilerplate should contain:</p>
+    
+    <ol>
+      <li>The DOCTYPE statement</li>
+      <li>A &lt;title&gt;-element</li>
+      <li>A heading</li>
+      <li>A paragraph</li>
+      <li>Some kind of listing</li>
+    </ol>
+    
+    <p>It should also be correct. Check with the <a href="http://validator.w3.org/">W3C Validator</a>, if in doubt.</p>
     
     <p id="footnote-1">[1] And reuse the spoilers we give you here.</p>
   </body>
